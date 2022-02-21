@@ -41,7 +41,7 @@ class ToDoListViewController: UIViewController {
             
             print("😡 ERROR: Could not load data \(error.localizedDescription)")
         }
-    }
+    } 
     
     func saveData() {
         let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
