@@ -63,7 +63,7 @@ class ToDoDetailTableViewController: UITableViewController {
         } else {
             navigationController?.popViewController(animated: true)
         }
-    } 
+    }
     
     @IBAction func reminderSwitchChanged(_ sender: UISwitch) {
         dateLabel.textColor = (reminderSwitch.isOn ? .black : .gray)
